@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* base */
+a,img{
+	border:0;
+}
+
+/* go-top */
+.go-top{
+	position:fixed;
+	_position:absolute;
+	bottom:100px;
+	right:50px;
+	width:40px;
+	height:40px;
+	display:none;
+}
+.go-top a,.go-top a:link{
+	width:40px;
+	height:40px;
+	display:inline-block;
+	background:url(../img/top.png) no-repeat;
+	_background:url(../img/top.gif) no-repeat;
+	outline:none;
+}
